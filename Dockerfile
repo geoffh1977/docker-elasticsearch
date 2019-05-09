@@ -7,8 +7,7 @@ USER root
 
 ENV ES_VERSION=6.7.2 \
     ES_SHA=7e2dd65dc10d117002dca309d5fd450e218d06f8ff5ed675a219c5bfb1367afdb7f00f9a5866628e475da38c91692e9eff29140c25cf1779fb71619ff50d784c \
-    DOWNLOAD_URL="https://artifacts.elastic.co/downloads/elasticsearch" \
-    ES_TARBALL="${DOWNLOAD_URL}/elasticsearch-${ES_VERSION}.tar.gz"
+    ES_TARBALL="https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.7.2.tar.gz"
 
 # Install Elasticsearch.
 # hadolint ignore=DL3003, DL3018, DL4006
