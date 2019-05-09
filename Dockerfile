@@ -34,7 +34,7 @@ RUN chmod 0755 /usr/local/bin/start.sh && \
   chown elasticsearch:elasticsearch /usr/local/bin/start.sh /elasticsearch/config
 
 # Set environment variables defaults
-ENV ES_JAVA_OPTS="-Xms512m -Xmx512m"
+ENV ES_JAVA_OPTS="-Xms512m -Xmx512m" \
     CLUSTER_NAME=elasticsearch-default \
     NODE_MASTER=true \
     NODE_DATA=true \
