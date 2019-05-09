@@ -1,0 +1,17 @@
+---
+# Project Variables
+dockerUser: geoffh1977
+dockerUserEmail: geoffh1977@gmail.com
+license: gnu-gpl-v3.0
+
+# Source Build Variables
+buildImageName: openjdk8
+buildImageVersion: latest
+
+# Final Image Variables
+finalImageName: elasticsearch
+finalImageVersion: 6.7.1
+
+# Application Config
+appName: Elasticsearch
+elasticsearchSha512: dcd3a6beae8b4a2322144058871074f193974565341da5703ec991947c2749ee67e87202e937148f653594f5fd33fdbb8adc891a200d4e03d8363575992eb9ec
